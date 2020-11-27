@@ -110,8 +110,7 @@ args = dict(
         ],
         "scoring" : "f1",
         "cv" : 5,
-        "n_jobs" : 3,
-        'USE_NEURAL_NETWORK': False
+        "n_jobs" : 3
     },
     drop_cols = ['srcAddress', 'destAddress', 'tlsSubject', 'appProtocol', 'tlsIssuerDn', 'tlsSni', 'eventId'] + 
                 ['C', 'ST', 'L', 'O', 'OU', 'CN'] + 

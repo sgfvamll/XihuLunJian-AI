@@ -5,9 +5,6 @@ from sklearn.model_selection import GridSearchCV
 from sklearn import metrics
 import joblib
 import pandas as pd
-from models.dnn import Dnn
-import torch
-import torch.nn as nn
 import random
 
 
